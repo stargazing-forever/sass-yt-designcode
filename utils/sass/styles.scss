@@ -1,9 +1,23 @@
-//variables
-$react-color: #21232a;
-body {
-    background-color: $react-color;
+// variables
+$primary: rgb(0, 90, 194);
+$secondary: rgb(0, 202, 135);
+$dark: #000;
+$dark-opacity: rgba($dark, 0.5);
+$font-size: 1.75rem;
+$brand: 'dsc';
+
+// clases
+.#{$brand}-title-primary {
+    font-size: $font-size;
+    color: $primary;
 }
-.button {
-    padding: 10px 20px;
-    background-color: aquamarine;
+
+.#{$brand}-title-secondary {
+    font-size: $font-size;
+    color: $secondary;
+}
+
+.#{$brand}-title-dark {
+    font-size: $font-size;
+    color: $dark-opacity;
 }

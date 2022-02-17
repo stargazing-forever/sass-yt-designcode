@@ -1,10 +1,16 @@
-body {
-  background-color: #21232a;
+.dsc-title-primary {
+  font-size: 1.75rem;
+  color: #005ac2;
 }
 
-.button {
-  padding: 10px 20px;
-  background-color: aquamarine;
+.dsc-title-secondary {
+  font-size: 1.75rem;
+  color: #00ca87;
+}
+
+.dsc-title-dark {
+  font-size: 1.75rem;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=styles.css.map */
