@@ -1,0 +1,49 @@
+%btn {
+    height: 40px;
+    min-width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin: 5px 0;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, .2);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.#{$brand}-btn-{
+    &primary, &success, &danger {
+        @extend %btn;
+        &:hover {
+            background-color: darkorange;
+        }
+    }
+    &primary {
+        background-color: $primary;
+    }
+    &success {
+        background-color: rgb(40, 192, 40);
+    }
+    &danger {
+        background-color: rgb(231, 47, 56);
+    }
+
+}
+
+// .#{$brand}-btn-{
+//     &primary {
+//         @extend %btn;
+//         background-color: $primary;
+//     }
+//     &success {
+//         @extend %btn;
+//         background-color: rgb(40, 192, 40);
+//     }
+//     &danger {
+//         @extend %btn;
+//         background-color: rgb(231, 47, 56);
+//     }
+
+// }
