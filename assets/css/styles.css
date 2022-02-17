@@ -1,0 +1,49 @@
+body {
+  background-color: #21232a;
+}
+
+.dsc-title-primary {
+  font-size: 1.75rem;
+  color: #005ac2;
+}
+
+.dsc-title-secondary {
+  font-size: 1.75rem;
+  color: #00ca87;
+}
+
+.dsc-title-light {
+  font-size: 1.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.75rem;
+  font-weight: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.dsc-card {
+  width: 250px;
+  padding: 0;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #00ca87;
+}
+.dsc-card img {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+.dsc-card h1 {
+  background-color: #00ca87;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+.dsc-card__body {
+  height: 50px;
+  text-align: center;
+  background-color: #005ac2;
+  line-height: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
