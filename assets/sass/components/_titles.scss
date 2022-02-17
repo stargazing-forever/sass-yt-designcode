@@ -1,0 +1,22 @@
+// clases
+.#{$brand}-title-primary {
+    font-size: $font-size;
+    color: $primary;
+}
+
+.#{$brand}-title-secondary {
+    font-size: $font-size;
+    color: $secondary;
+}
+
+.#{$brand}-title-light {
+    font-size: $font-size;
+    color: $light-opacity;
+    
+    // nesting de propiedades
+    font: {
+        size: $font-size;
+        weight: 20px;
+        family: 'Courier New', Courier, monospace;
+    }
+}
